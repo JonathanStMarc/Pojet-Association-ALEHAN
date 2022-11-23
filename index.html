@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Association ALEHAN</title>
+    </head>
+
+    <body class="body">
+        <div class="entete">
+            <img class="logoAleha" src="/sources/logoAlehan.jpg" alt="" />
+            <h1 class="titre">
+                Association ALEHAN <br />
+                <p class="slogan">Association à but non lucratif .Loi 1901.</p>
+            </h1>
+        </div>
+
+        <!-- Menu NavBar -->
+        <ul
+            class="menuNav justify-content-center m-auto nav nav-tabs"
+            id="myTab"
+            role="tablist"
+        >
+            <li class="nav-item" role="presentation">
+                <button
+                    class="text-success nav-link active"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="home-tab-pane"
+                    aria-selected="true"
+                >
+                    Présentation
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button
+                    class="text-success nav-link"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile-tab-pane"
+                    aria-selected="false"
+                >
+                    Les évènements associatifs
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button
+                    class="text-success nav-link"
+                    id="contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#contact-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="contact-tab-pane"
+                    aria-selected="false"
+                >
+                    Annuaire de l'association
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button
+                    class="text-success nav-link"
+                    id="Woofing-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Woofing-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="Woofing-tab-pane"
+                    aria-selected="false"
+                >
+                    Woofing
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button
+                    class="text-success nav-link"
+                    id="disabled-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#disabled-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="disabled-tab-pane"
+                    aria-selected="false"
+                >
+                    Nous contacter
+                </button>
+            </li>
+        </ul>
+        <!--................... Contenu des différents onglets -->
+        <div class="tab-content" id="myTabContent">
+            <div
+                class="mt-4 tab-pane fade show active"
+                id="home-tab-pane"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+                tabindex="0"
+            >
+                <br />
+                <br />
+                <!-- Card -->
+                <div class="container">
+                    <div class="row">
+                        <div class="card bg-light">
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <h2
+                                        id="solidaires"
+                                        style="color: red"
+                                        class="display-4"
+                                    >
+                                        ACTIONS SOLIDAIRES
+                                    </h2>
+                                    <p class="lead">
+                                        A partir de l'expressions de vos
+                                        besoins, vos demandes, vos inspirations
+                                        et de votre implication.
+                                    </p>
+                                    <hr class="my-4" />
+                                    <ul>
+                                        <li class="">
+                                            Organiser des évènements
+                                        </li>
+                                        <li class="">Dons solidaires</li>
+                                        <li class="">Echange des savoirs</li>
+                                        <li class="">Actions culturelles</li>
+                                        <li class="">
+                                            Collecte et ventes de vêtements
+                                        </li>
+                                        <li class="">
+                                            Dons aux personnes dans le besoin
+                                        </li>
+                                    </ul>
+                                    <a
+                                        class="btn btn-lg btn-outline-warning"
+                                        href="#"
+                                        role="button"
+                                    >
+                                        En savoir plus
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card bg-light">
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <h2
+                                        id="insertions"
+                                        style="color: green"
+                                        class="display-4"
+                                    >
+                                        ACTIONS D'INSERTIONS
+                                    </h2>
+                                    <p class="lead">Aide et soutien :</p>
+                                    <hr class="my-4" />
+                                    <ul>
+                                        <li class="">
+                                            Aux démarches vers l'emploi,
+                                            formations...
+                                        </li>
+                                        <li class="">
+                                            Valorisations des qualités et
+                                            compétences
+                                        </li>
+                                        <li class="">
+                                            Rencontres spécifiques, adaptées
+                                            (avocat, médecin...)
+                                        </li>
+                                    </ul>
+                                    <a
+                                        class="btn btn-lg btn-outline-warning"
+                                        href="#"
+                                        role="button"
+                                    >
+                                        En savoir plus
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card bg-light">
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <h2 id="preventions" class="display-4">
+                                        ACTIONS PREVENTIONS
+                                    </h2>
+                                    <p class="lead">
+                                        Aide aux jeunes et parents pour
+                                        surmonter les situations difficiles ou
+                                        de rupture avec l'environnement
+                                        familial, scolaire, professionnel ou
+                                        social.
+                                    </p>
+                                    <hr class="my-4" />
+                                    <ul>
+                                        <li class="">
+                                            Mettre en lien les jeunes et les
+                                            familles avec des oéprateurs
+                                            compétents pour répondre à leurs
+                                            questionnement.
+                                        </li>
+                                        <li class="">
+                                            Action pour lutter contre la
+                                            récidive
+                                        </li>
+                                    </ul>
+                                    <a
+                                        class="btn btn-lg btn-outline-warning"
+                                        href="#"
+                                        role="button"
+                                    >
+                                        En savoir plus
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div
+                class="m-4 tab-pane fade"
+                id="profile-tab-pane"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+                tabindex="0"
+            >
+                <br />
+                EXPLOITATION... Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Hic qui, ut fugiat alias ducimus nam,
+                exercitationem pariatur asperiores reiciendis dicta, officiis
+                nihil placeat quo atque distinctio architecto quam inventore
+                repellat!
+                <br />
+                <!-- Carousel -->
+                <!-- <div class="row m-4">
+                    <div class="col-8 m-auto">
+                        <div
+                            id="carouselExampleCaptions"
+                            class="carousel slide"
+                            data-bs-ride="false"
+                        >
+                            <div class="carousel-indicators">
+                                <button
+                                    type="button"
+                                    data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"
+                                ></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"
+                                ></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"
+                                ></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img
+                                        src="sources/bg-index.jpg"
+                                        class="d-block w-100"
+                                        alt="..."
+                                    />
+                                    <div
+                                        class="carousel-caption d-none d-md-block"
+                                    >
+                                        <h5>First slide label</h5>
+                                        <p>
+                                            Some representative placeholder
+                                            content for the first slide.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img
+                                        src="/sources/img-potager.jpg"
+                                        class="d-block w-100"
+                                        alt="..."
+                                    />
+                                    <div
+                                        class="carousel-caption d-none d-md-block"
+                                    >
+                                        <h5>Second slide label</h5>
+                                        <p>
+                                            Some representative placeholder
+                                            content for the second slide.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img
+                                        src="/sources/img-champs.jpg"
+                                        class="d-block w-100"
+                                        alt="..."
+                                    />
+                                    <div
+                                        class="carousel-caption d-none d-md-block"
+                                    >
+                                        <h5>Third slide label</h5>
+                                        <p>
+                                            Some representative placeholder
+                                            content for the third slide.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div> -->
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sed quia quod, cum excepturi delectus dignissimos omnis
+                    possimus repellat! Magnam magni nulla provident minus nobis
+                    repudiandae libero adipisci rerum ex quod.
+                </p>
+            </div>
+            <div
+                class="mt-4 mb-4 tab-pane fade"
+                id="contact-tab-pane"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+                tabindex="0"
+            >
+                Nos produits... Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Magnam voluptas fugit voluptatem sequi
+                suscipit laborum, cumque nam dolores provident ullam
+                perspiciatis at id aspernatur quod facilis molestias a sapiente
+                deserunt?
+                <br /><br /><br />
+                <div class="container">
+                    <div class="row">
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="/sources/carrotte.jpg"
+                                class="card-img-top"
+                                alt="carotte"
+                            />
+                            <div class="m-auto card-body">
+                                <p class="text-black card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="/sources/courgette.jpg"
+                                class="card-img-top"
+                                alt="courgette"
+                            />
+                            <div class="card-body">
+                                <p class="text-black card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="/sources/fenouil.jpg"
+                                class="card-img-top"
+                                alt="fenouil"
+                            />
+                            <div class="card-body">
+                                <p class="text-black card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="/sources/poireau.jpg"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <p class="text-black card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="/sources/carrotte.jpg"
+                                class="card-img-top"
+                                alt="carotte"
+                            />
+                            <div class="m-auto card-body">
+                                <p class="text-black card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="/sources/courgette.jpg"
+                                class="card-img-top"
+                                alt="courgette"
+                            />
+                            <div class="card-body">
+                                <p class="text-black card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="/sources/fenouil.jpg"
+                                class="card-img-top"
+                                alt="fenouil"
+                            />
+                            <div class="card-body">
+                                <p class="text-black card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="/sources/poireau.jpg"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <p class="text-black card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="tab-pane fade"
+                id="Woofing-tab-pane"
+                role="tabpanel"
+                aria-labelledby="Woofing-tab"
+                tabindex="0"
+            >
+                <br />
+                <p>
+                    WOOFING Veuillez nous contactez pour avoir plus de
+                    renseignement sur le woofing... Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Doloremque voluptatum aliquid
+                    rerum repellat id. Deserunt quam modi exercitationem aut
+                    nobis ab cupiditate eos, eligendi quidem ratione quo nihil
+                    sequi neque.
+                    <br />
+                    <a class="mb-4" href="contact.html"
+                        >Accéder au formulaire de contact</a
+                    >
+                </p>
+                <img
+                    class="mt-4"
+                    src="/sources/wwoofing-thailande-woofing-volontariat-benevolat-bio-permaculture.jpg"
+                    alt=""
+                />
+                <br />
+                <br />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    At, voluptas quam inventore recusandae temporibus labore.
+                    Explicabo eaque, totam consequatur mollitia exercitationem
+                    quam ut numquam fugiat velit voluptatibus obcaecati dolorum
+                    accusamus. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Laborum maiores quia dignissimos officiis
+                    alias est quidem voluptates aut, expedita repellat placeat
+                    esse id, nobis rem unde eum tempora sint beatae.
+                </p>
+                <br />
+                <br />
+            </div>
+            <div
+                class="tab-pane fade"
+                id="disabled-tab-pane"
+                role="tabpanel"
+                aria-labelledby="disabled-tab"
+                tabindex="0"
+            >
+                <br />
+                <h2>Où peux-tu nous trouver :</h2>
+                <br />
+                <img
+                    style="width: 850px"
+                    src="/sources/contact-600x337.jpg"
+                    alt=""
+                />
+                <br />
+                <div class="row">
+                    <div class="col-4">
+                        <i class="iconContact bi bi-telephone">
+                            <br />
+                            Numéro :</i
+                        ><br />
+                        <p>0450606060</p>
+                        <p>0650605050</p>
+                    </div>
+                    <div class="col-4">
+                        <i class="iconContact bi bi-house"
+                            ><br />
+                            Adresse :</i
+                        >
+                        <p>
+                            1 Allée du maraicher <br />73590 Saint Jean de
+                            Maurienne
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <i class="iconContact bi bi-envelope"
+                            ><br />
+                            Email :</i
+                        >
+                        <p>mairaichage@presdechezvous.fr</p>
+                    </div>
+                </div>
+                <p class="mt-4">
+                    Cliquer sur le lien en dessous pour accéder au formulaire de
+                    contact
+                </p>
+                <a href="contact.html">Accéder au formulaire de contact</a>
+            </div>
+        </div>
+        <div>
+            <!-- footer -->
+            <footer
+                id="footer"
+                class="bg-secondary bg-gradient d-flex justify-content-between mt-0 pt-0"
+            >
+                <p class="p-footer m-auto">
+                    Développé par : <br />
+                    Saint Marc Jonathan <br />
+                    by Halima Boucetta <br />
+                </p>
+                <p class="m-auto">
+                    <i class="fa fa-copyright" aria-hidden="true"
+                        >© Copyright 2022 <br />
+                        Tous droits réservées</i
+                    >
+                </p>
+
+                <div class="m-auto">
+                    <p>Nos réseaux sociaux :</p>
+                    <div class="mb-2 group-social">
+                        <button
+                            class="me-2 btn-social-share btn btn-outline-danger"
+                        >
+                            <i class="bi bi-linkedin"
+                                ><a href="https://www.linkedin.com/feed/"></a
+                            ></i>
+                        </button>
+                        <button
+                            class="me-2 btn-social-share btn btn-outline-danger"
+                        >
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button
+                            class="me-2 btn-social-share btn btn-outline-danger"
+                        >
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+        <!-- bootstrap icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+            integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo"
+            crossorigin="anonymous"
+        />
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

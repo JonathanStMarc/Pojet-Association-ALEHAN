@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.entete {
+    display: flex;
+    background-color: rgb(61, 143, 61);
+    width: 100vw;
+}
+.logoAleha {
+    width: 10%;
+    border-radius: 50%;
+}
+.titre {
+    width: 90%;
+    text-align: center;
+    color: white;
+    font-family: "Lobster", cursive;
+    margin-top: 40px;
+}
+.slogan {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.menuNav {
+    font-size: larger;
+    font-family: "Lobster", cursive;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+li {
+    list-style-type: none;
+}
+.row {
+    margin: 0;
+}
+.container.row {
+    margin-right: 0px auto;
+    padding: 0px auto;
+}
+/* Footer */
+#footer {
+    bottom: 0;
+    width: 100vw;
+}
+.group-social {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}

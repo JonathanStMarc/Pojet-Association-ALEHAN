@@ -7,7 +7,6 @@
         width: 50% !important;
     }
 }
-
 body {
     margin: 0px;
     padding: 0px;
@@ -26,8 +25,11 @@ body {
     width: 90%;
     text-align: center;
     color: white;
-    font-family: "Lobster", cursive;
     margin-top: 40px;
+}
+.police {
+    text-align: center;
+    font-family: "Lobster", cursive;
 }
 .slogan {
     font-size: 15px;
@@ -35,9 +37,14 @@ body {
 }
 .menuNav {
     font-size: larger;
-    font-family: "Lobster", cursive;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+.declaration,
+.citation {
+    text-align: center;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 .card {
@@ -51,9 +58,11 @@ li {
 .row {
     margin: 0;
 }
-.container.row {
-    margin-right: 0px auto;
-    padding: 0px auto;
+.cardContainer {
+    flex-wrap: wrap;
+}
+.cardEvenement {
+    width: 20rem;
 }
 /* Footer */
 #footer {

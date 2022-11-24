@@ -97,6 +97,7 @@ li {
 }
 .containerCaroussel {
     width: 80vw;
+    max-height: 50%;
     margin: auto;
 }
 /* Footer */

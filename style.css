@@ -8,6 +8,7 @@
     }
 }
 body {
+    overflow-x: hidden;
     margin: 0px;
     padding: 0px;
     text-align: center;
@@ -41,11 +42,30 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.mainTendue {
+    text-align: center;
+    font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+    color: rgb(177, 72, 11);
+    font-style: oblique;
+    font-size: 50px;
+}
 .declaration,
 .citation {
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
+}
+.photoSlogan {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 90%;
+}
+.photoPresentation {
+    width: 100%;
+}
+.ajustFoto {
+    width: 90%;
 }
 .card {
     text-align: center;
@@ -61,8 +81,18 @@ li {
 .cardContainer {
     flex-wrap: wrap;
 }
+.annuaireTitle,
+.albumTitle {
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 255, 13), 0 0 0.2em rgb(255, 0, 0);
+    font-size: 50px;
+}
 .cardEvenement {
     width: 20rem;
+}
+.containerCaroussel {
+    width: 80vw;
+    margin: auto;
 }
 /* Footer */
 #footer {

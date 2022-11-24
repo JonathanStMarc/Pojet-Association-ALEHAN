@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 840px) {
     .entete {
         flex-direction: column;
     }
@@ -6,7 +6,11 @@
         align-self: center;
         width: 50% !important;
     }
+    .imgContact {
+        width: 70% !important;
+    }
 }
+
 body {
     overflow-x: hidden;
     margin: 0px;
@@ -103,4 +107,8 @@ li {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+}
+/* Formulaire de contact */
+.imgContact {
+    width: 20rem;
 }

@@ -86,7 +86,8 @@ li {
     flex-wrap: wrap;
 }
 .annuaireTitle,
-.albumTitle {
+.albumTitle,
+.contactTitle {
     color: white;
     text-shadow: 1px 1px 2px rgb(0, 255, 13), 0 0 0.2em rgb(255, 0, 0);
     font-size: 50px;
@@ -111,4 +112,7 @@ li {
 /* Formulaire de contact */
 .imgContact {
     width: 20rem;
+}
+.detailContact {
+    font-size: 24px;
 }

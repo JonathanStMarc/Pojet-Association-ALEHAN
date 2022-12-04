@@ -55,6 +55,8 @@ body {
 }
 .declaration,
 .citation {
+    background-color: rgb(61, 143, 61);
+
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
@@ -110,7 +112,7 @@ li {
     justify-content: space-around;
     margin-top: 10px;
 }
-/* Formulaire de contact */
+/* Onglet Contact */
 .imgContact {
     width: 20rem;
 }

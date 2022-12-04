@@ -11,7 +11,11 @@
     <body class="body">
         <!-- entete de page -->
         <div class="entete">
-            <img class="logoAleha" src="sources/logoAlehan.jpg" alt="" />
+            <img
+                class="logoAleha"
+                src="sources/logoAlehan.jpg"
+                alt="Logo de l'association"
+            />
             <h1 class="titre police">
                 Association ALEHAN <br />
                 <p class="slogan police">
@@ -97,11 +101,11 @@
                 </button>
             </li>
         </ul>
-        <br />
 
         <!-- Contenu des différents onglets -->
         <div class="tab-content" id="myTabContent">
             <!-- onglet présentation -->
+
             <div
                 class="mt-4 tab-pane fade show active"
                 id="home-tab-pane"
@@ -109,19 +113,26 @@
                 aria-labelledby="home-tab"
                 tabindex="0"
             >
+                <p class="signification police">
+                    <u>Signification du logo :</u> <br />
+                    Ce logo est inspiré d'un cerf volant, fabriqué sous forme de
+                    pin's par une personne incarcérée.<br />
+                    Il nous a été offert, pour nous remercier de notre
+                    accompagnement .<br />
+                    Cette personne sortie depuis, est réinsérée socialement et
+                    professionnellement.
+                </p>
                 <h2 class="mainTendue">
                     Aucune main tendue n'est insignifiante...
                 </h2>
-                <br />
-                <br />
                 <div class="photoSlogan">
                     <img
-                        class="photoPresentation ajustFoto"
+                        class="photoPresentation rounded-4 ajustFoto"
                         src="./sources/photoEnsemble.png"
                         alt="Photo de l'union fait la force"
                     />
                     <img
-                        class="photoPresentation"
+                        class="photoPresentation rounded-4"
                         src="./sources/mainUni.jpg"
                         alt="Photo d'une main de bébé et d'une main d'une personne agé"
                     />
@@ -146,7 +157,7 @@
                                         id="solidaires"
                                         class="display-4 text-danger"
                                     >
-                                        ACTIONS SOLIDAIRES
+                                        <u> ACTIONS SOLIDAIRES </u>
                                     </h2>
                                     <p class="lead">
                                         A partir de l'expressions de vos
@@ -193,7 +204,7 @@
                                         id="insertions"
                                         class="display-4 text-success"
                                     >
-                                        ACTIONS D'INSERTIONS
+                                        <u> ACTIONS D'INSERTIONS </u>
                                     </h2>
                                     <p class="lead">Aide et soutien :</p>
                                     <hr class="my-4" />
@@ -227,8 +238,11 @@
                         <div class="card bg-light">
                             <div class="col-12">
                                 <div class="jumbotron">
-                                    <h2 id="preventions" class="display-4 text-info">
-                                        ACTIONS PREVENTIONS
+                                    <h2
+                                        id="preventions"
+                                        class="display-4 text-info"
+                                    >
+                                        <u> ACTIONS PREVENTIONS </u>
                                     </h2>
                                     <p class="lead">
                                         Aide aux jeunes et parents pour
@@ -267,7 +281,7 @@
                     </div>
                 </div>
                 <div>
-                    <p class="declaration">
+                    <p class="declaration rounded-5">
                         "Tous les êtres humains naissent libres et égaux en
                         dignité et en droits. Ils sont doués de raison et de
                         conscience et doivent agir les uns envers les autres

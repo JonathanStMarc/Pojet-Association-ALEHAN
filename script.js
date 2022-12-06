@@ -1,3 +1,4 @@
+//Detail card presentation on click
 let BtnAS = document.getElementById("btnActionSolidaire");
 BtnAS.addEventListener("click", function () {
     let detailAS = document.querySelector(".detailAS");
@@ -48,4 +49,25 @@ btnAP.addEventListener("click", function () {
         "border-3",
         "rounded-4",
     );
+});
+
+// Detail Evenement card on click
+let btnCardEvent1 = document.getElementById("btnCardEventCouscous");
+btnCardEvent1.addEventListener("click", function () {
+    let detailCardEvent1 = document.querySelector(".detailCardEvent1");
+    btnCardEvent1.style.display = "none";
+    let pDetail = document.createElement("p");
+    pDetail.textContent =
+        "Description détaillé de l'évènement couscous. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.";
+    detailCardEvent1.appendChild(pDetail);
+});
+
+let btnCardEvent2 = document.getElementById("btnCardEventNage");
+btnCardEvent2.addEventListener("click", function () {
+    let detailCardEvent2 = document.querySelector(".detailCardEvent2");
+    btnCardEvent2.style.display = "none";
+    let pDetail = document.createElement("p");
+    pDetail.textContent =
+        "Description détaillé de l'évènement nage et plongée. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.";
+    detailCardEvent2.appendChild(pDetail);
 });

@@ -89,6 +89,7 @@ li {
 .cardContainer {
     flex-wrap: wrap;
 }
+.EvenementTitle,
 .annuaireTitle,
 .albumTitle,
 .contactTitle {

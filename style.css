@@ -22,12 +22,9 @@ body {
     background-color: rgb(61, 143, 61);
     width: 100vw;
 }
-.logoAleha {
+.logoAlehan {
     width: 10%;
     border-radius: 50%;
-}
-.signification {
-    font-size: 18px;
 }
 .titre {
     width: 90%;
@@ -35,7 +32,7 @@ body {
     color: white;
     margin-top: 40px;
 }
-.textPreventionTitle{
+.textPreventionTitle {
     color: rgb(21, 197, 30);
 }
 .police {
